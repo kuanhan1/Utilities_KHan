@@ -1,8 +1,5 @@
-# Utilities_KH
+This repository solves the gcc-version issue when installing pytorch by source-compiling.
 
-Some utility-scripts I am using to set up my environments or to install packages.
+The solution is to remove previous gcc and install an old gcc (downgrade).
 
-- Solving the gcc-version issue when installing pytorch by source-compiling. The solution is to remove previous higher-version gcc and install an lower-version gcc (downgrade).
-
-- Setting up github ssh connections.
-
+For most cases this will work.
