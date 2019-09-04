@@ -63,7 +63,7 @@ def transform_save_image(image_path, save_path):
     except:
         print('  ' + image_path + ' needs to be transformed from RGBA to RGB before saving to ' + save_path)
         img = img.convert("RGB")
-        img.save("test.jpg")
+        img.save(save_path)
 
     return 0
 
