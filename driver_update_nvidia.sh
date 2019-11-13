@@ -1,4 +1,6 @@
-# In this example it is nvidia-384
+# In this example it is nvidia-430
+sudo apt-get purge nvidia*
+sudo add-apt-repository ppa:graphics-drivers
 sudo apt-get update
-sudo apt-get install --no-install-recommends nvidia-384 libcuda1-384 nvidia-opencl-icd-384
+sudo apt-get install nvidia-430
 sudo reboot
